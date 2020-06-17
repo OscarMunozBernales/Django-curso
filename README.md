@@ -1,5 +1,11 @@
 # PROBANDO DJANGO
 
+## Índice
+<a href="#1"> 1. Instalación Django</a><br>
+<a href="#2"> 2. Archivos proyecto Django</a>
+
+<div id="1">
+
 ## 1. Instalación Django
 1. Instalar python desde [python.org](https://python.org)
 2. Desde ahora siempre vamos a trabajar desde la consola
@@ -33,3 +39,14 @@ Ahora que tenemos instalado Django en nuestro entorno local, vamos a crear un pr
 django-admin startproject NOMBRE_PROYECTO . 
 ```
 Listo tenemos nuestro proyecto django instalado
+
+</div>
+<div id="2">
+
+## 2. Archivos Proyecto Django
+- **\_\_init\_\_.py** : Archivo vacio, su unico objetivo es declarar la carpeta como un módulo de python.
+- **settings.py** : Uno de los archivos mas importantes del proyecto, puesto que defino las configuraciones de nuestro proyecto
+- **urls.py** : Archivo principal, punto de entrada para todas las peticiones que lleguen al proyecto.
+- **wsgi.py** : Archivo usado para el deployment, es la interfaz wsgi con nuestro proyecto cuando el servidor este correidno en produccion
+
+</div>

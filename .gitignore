@@ -1,2 +1,5 @@
 # CACHE PYTHON
-test01/__pycache__/.pyc
+test01/__pycache__/*
+
+# BASE DE DATOS 
+db.sqlite3
