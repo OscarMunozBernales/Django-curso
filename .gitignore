@@ -3,3 +3,9 @@ test01/__pycache__/*
 
 # BASE DE DATOS 
 db.sqlite3
+
+# Etorno de desarrollo
+env/
+
+# Interprete vscode
+.vscode
